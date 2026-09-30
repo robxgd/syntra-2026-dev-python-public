@@ -55,3 +55,5 @@ print(f"De toegangsprijs is {prijs} euro.")
 #
 # De grenzen (11/12 en 64/65) zijn waar beginners het vaakst één naast zitten.
 # ---------------------------------------------------------------------------
+
+
