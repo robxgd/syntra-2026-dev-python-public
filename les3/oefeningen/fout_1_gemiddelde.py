@@ -8,6 +8,6 @@ score1 = float(input("Score 1: "))
 score2 = float(input("Score 2: "))
 score3 = float(input("Score 3: "))
 
-gemiddelde = score1 + score2 + score3 / 3
+gemiddelde = (score1 + score2 + score3) / 3
 
 print(f"Het gemiddelde is {gemiddelde}")

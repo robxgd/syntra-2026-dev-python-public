@@ -8,7 +8,7 @@ bedrag = float(input("Bedrag: "))
 korting_procent = float(input("Korting in procent: "))
 
 korting = bedrag * korting_procent / 100
-te_betalen = bedrag + korting
+te_betalen = bedrag - korting
 
 print(f"Korting:    {korting} euro")
 print(f"Te betalen: {te_betalen} euro")

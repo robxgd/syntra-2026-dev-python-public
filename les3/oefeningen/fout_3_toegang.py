@@ -6,6 +6,7 @@ vóór je iets verandert.
 """
 
 leeftijd = input("Hoeveel jaar ben je? ")
+leeftijd = int(leeftijd)
 
 if leeftijd >= 18:
     print("Welkom")

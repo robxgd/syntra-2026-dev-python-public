@@ -12,5 +12,6 @@ teller = 5
 
 while teller > 0:
     print(teller)
+    teller -= 1
 
 print("Start!")

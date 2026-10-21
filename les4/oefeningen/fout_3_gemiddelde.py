@@ -6,12 +6,12 @@ Voeg dan een zesde score toe aan de lijst, bijvoorbeeld 21,
 en voer opnieuw uit. Nu klopt het niet meer. Waarom?
 """
 
-scores = [12, 15, 9, 18, 21]
+scores = [12, 15, 9, 18, 21, 21]
 
 totaal = 0
 for score in scores:
     totaal = totaal + score
 
-gemiddelde = totaal / 5
+gemiddelde = totaal / len(scores)
 
 print(f"Gemiddelde: {gemiddelde}")

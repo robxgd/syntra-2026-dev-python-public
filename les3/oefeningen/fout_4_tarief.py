@@ -8,7 +8,7 @@ Wat komt eruit? Er verschijnt geen enkele foutmelding.
 
 leeftijd = int(input("Hoeveel jaar is de bezoeker? "))
 
-if leeftijd < 65:
+if leeftijd < 65 and leeftijd >= 12:
     prijs = 12
 elif leeftijd < 12:
     prijs = 6
