@@ -1,0 +1,3 @@
+Geslaagd: [10, 14]
+Niet geslaagd: [8, 7]
+Ongeldig: [-1, 21]
